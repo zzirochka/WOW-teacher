@@ -93,3 +93,7 @@ footer span {
     padding-left: 90px;
 
 }
+
+footer span a {
+	color: lightgreen;
+}
