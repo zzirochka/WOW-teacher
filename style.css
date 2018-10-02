@@ -1,0 +1,95 @@
+body {
+    /*overflow: hidden;*/
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*.content {
+    border: 1px solid gray;
+    border-radius: 10px;
+}*/
+
+.left {
+    background-color: white;
+    float: left;
+    padding: 100px 100px 100px 85px;
+    width: 45%;
+    height: 670px;
+    margin: 100px 100px;
+    position: absolute;
+}
+
+.left p {
+    padding-bottom: 100px;
+    color: gray;
+    line-height: 1.5em;
+}
+
+.left h4 {
+    text-transform: uppercase;
+    color: gray;
+}
+
+.left .title {
+    font-size: 50px;
+    padding-bottom: 0;
+    color: black;
+}
+
+.left hr {
+   /* width: 100%;
+    margin: 0 -160px 0 -85px;*/
+    margin: 65px -100px 0 -85px;
+}
+
+.fa-google-plus-g {
+    color: red;
+}
+
+.fa-facebook-f {
+    color: blue;
+}
+
+.fa-twitter {
+    color: #00aced;
+}
+
+.button {
+    display: block;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px black;
+}
+
+.button span {
+    text-transform: uppercase;
+    padding-left: 200px;
+    color: black;
+}
+
+.right {
+    float: right;
+    background-image: url(photo.jpg);
+    height: 870px;
+    width: 50%;
+    margin: 100px 100px;
+
+}
+
+footer {
+    padding-top: 40px;
+}
+
+footer span {
+    padding-left: 90px;
+
+}
